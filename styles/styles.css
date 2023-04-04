@@ -1,0 +1,59 @@
+body {
+    background-color: black;
+    background-size: 300% 300%;
+    animation: fundo 20s ease infinite;
+    width: 100vh;
+    height: 100vh;
+}
+
+@keyframes fundo {
+    0% {
+        background-color: aqua;
+    }
+
+    25% {
+        background-color: blue;
+    }
+
+    50% {
+        background-color: purple;
+    }
+
+    75% { 
+        background-color: black; 
+    }
+
+    100%{ 
+        background-color: aqua;
+    }
+}
+
+div {
+    font-family: Rubik;
+    font-size: 30px;
+    padding: 2rem 4rem; 
+    border: 2px solid #ffff;
+    color: white;
+    font-weight: 700;
+    position: absolute;
+    top: 45%;
+    left: 38%;
+   box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.521);
+   text-shadow: 5px 5px 5px black;
+   animation: sombra 10s ease infinite;
+
+}
+
+@keyframes sombra {
+    0% {
+        box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.521);
+    }
+
+    50% {
+        box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.521);
+    }
+
+    100% {
+        box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.521);
+    }
+}
