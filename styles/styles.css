@@ -36,11 +36,12 @@ div {
     color: white;
     font-weight: 700;
     position: absolute;
-    top: 45%;
-    left: 38%;
-   box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.521);
-   text-shadow: 5px 5px 5px black;
-   animation: sombra 10s ease infinite;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.521);
+    text-shadow: 5px 5px 5px black;
+    animation: sombra 10s ease infinite;
 
 }
 
